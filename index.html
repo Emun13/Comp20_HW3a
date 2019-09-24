@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML 5 Doc</title>
+	<style>
+		body,html {
+			position: relative;
+			background-color: #a8a5a6;
+			z-index: -10;
+			padding: 0; margin: 0;
+			/* change page height here*/
+			max-height: 900px;
+		}
+		header h1 { 
+			text-align:center;
+			position: relative;
+			top: -45px;
+			font-family: Marker Felt;
+			text-shadow: 2px 2px 5px #000000;
+			font-size: 60px;
+		}
+		header {
+			color: #fff; 
+			padding: 20px 40px; 
+			width: 100%;
+			height: 80%; 
+			box-sizing: border-box;
+		}
+		nav { 
+			background-color: #fa6eff; 
+			position: relative;
+			height: 55px;
+			top: -100px;
+			padding: 10px 0;
+		}
+		nav a {
+			color: #000000; 
+			font-size: 24px; 
+			text-decoration: none;
+		}
+		nav ul {
+			list-style-type:none; 
+		}
+		nav ul li {
+			display: inline-block;
+			font-family: Arial Narrow;
+		}
+		aside h1{
+			position: absolute;
+			top: -10px;
+			right: 45px;
+			font-family: Marker Felt;
+			font-size: 50px;
+		}
+		aside {
+			background-color: #fa6eff;
+			position: relative;
+			right: -1030px;
+			top: -105px;
+			width: 250px;
+			height: 600px; 
+			z-index: 10;
+		}
+		aside ul {
+			position: relative;
+			text-align: left;
+			padding-top: 120px;
+		}
+		input.go {
+			position: relative;
+			left: 475px;
+			background-color: #000000;
+			color: #FFFFFF;
+			width: 90px;
+			height: 40px;
+			top: -5px;
+		}
+		input.text {
+			position: relative;
+			left: 465px;
+			width: 255px;
+			height: 32px;
+			top: -5px
+		}
+		article {
+			background-color: #FFFFFF;
+			position: relative; 
+			top: -747px;
+			width: 1018px;
+			height: 600px;
+			z-index: 10;
+		}
+		article h1{
+			text-align: center;
+			position: relative;
+			top: 30px;
+			font-size: 50px;
+			font-family: Marker Felt;
+		}
+		article p{
+			text-align: left;
+			position: relative;
+			left: 20px;
+			top: 15px;
+			line-height: 25px;
+			font-family: Arial Narrow;
+		}
+		section {
+			text-align: left; 
+			position: relative;
+			left: 20px;
+			top: -1155px;
+			z-index: 10;
+		}
+		section h1 {
+			text-align: left;
+			position: relative;
+			font-size: 30px;
+			font-family: Marker Felt;
+		}
+		footer {
+			background-color: #FFFFFF;
+			position: relative;
+			top: -875px;
+			height: 80px;
+		}
+		footer p {
+			position: relative;
+			text-align: left;
+			left: 20px;
+			top: 35px;
+			font-family: Arial Narrow;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1><i>Header</i></h1>
+	</header>
+	<nav>
+	<ul>
+		<li style="position: relative; left: 60px;"><a href="#">HOME</a></li>
+		<li style="position: relative; left: 165px;"><a href="#">OUR TEAM</a></li>
+		<li style="position: relative; left: 270px;"><a href="#">PROJECTS</a></li>
+		<li style="position: relative; left: 370px;"><a href="#">CONTACT</a></li>
+	<li>
+	<form>
+		<input class="text" type='text' name='search' placeholder="Search Query">
+		<input class="go" type = 'submit' value = "Go!">
+	</form>
+	</li>
+	</ul>
+	</nav>
+	<aside>
+		<h1><i>Related</i></h1>
+	<ul>
+ 		<li><a href="#" style="color: #0b00d1">Oh I do like to be beside the seaside</a></li>
+  		<li style="position: relative; padding-top: 15px;"><a href="#" style="color: #0b00d1">Oh I do like to be beside the  &nbsp sea</a></li>
+  		<li style="position: relative; padding-top: 15px;"><a href="#" style="color: #0b00d1">Although in the North of England</a></li>
+  		<li style="position: relative; padding-top: 15px;"><a href="#" style="color: #0b00d1">It nevers stops raining</a></li>
+  		<li style="position: relative; padding-top: 15px;"><a href="#" style="color: #0b00d1"s>Oh well...</a></li>
+	</ul>
+	</aside>
+	<article>
+		<h1><i>Article heading</i></h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ac tincidunt vitae semper quis lectus. Consect &nbsp &nbsp &nbsp a erat nam at lectus urna duis convallis convallis. In dictum non consectetur a erat nam at lectus. Vestibulum morbi blandit cursus risus. Lobortis elementum nibh tellus    &nbsp &nbsp molestie nunc non blandit.</p>
+
+		<p style="top: 80px;">Ornare aenean euismod elementum nisi quis eleifend. Diam maecenas sed enim ut sem viverra aliquet. Dui faucibus in ornare quam viverra. Eget duis at tellus at urna condimentum. Nunc lobortis mattis aliquam faucibus purus. </p>
+
+		<p style="top: 80px;">Eget arcu dictum varius duis at consectetur lorem donec. Tincidunt dui ut ornare lectus sit amet est placerat. Diam maecenas ultricies mi eget. Mauris cursus mattis &nbsp &nbsp &nbsp molestie a iaculis at erat. Vel orci porta non pulvinar neque. </p>
+
+		<p style="top: 140px;">Arcu non sodales neque sodales ut etiam sit. Consequat id porta nibh venenatis. Sed libero enim sed faucibus turpis in. Consectetur a erat nam at lectus. At auctor urna &nbsp &nbsp nunc id. Mi proin sed libero enim sed. Morbi tristique senectus et netus et malesuada fames ac. Tristique senectus et netus et malesuada fames.</p>
+
+		<p style="top: 140px;"> Feugiat pretium nibh ipsum consequat nisl vel. Proin fermentum leo vel orci porta non pulvinar neque. Leo vel orci porta non pulvinar. Lorem ipsum dolor sit amet, &nbsp &nbsp &nbsp consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	</article>
+	<section>
+		<h1><i>subsection</i></h1>
+		<h1 style="top: 130px;"><i>Another subsection</i></h1>
+	</section>
+	<footer>
+		<p>©Copyright 2050 by nobody. All rights reversed.</p>
+	</footer>
+
+</body>
+</html>
